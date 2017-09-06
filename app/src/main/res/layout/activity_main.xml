@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hdos.rsyygh.testjni.MainActivity">
+
+    <Button
+        android:onClick="testString"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="调用字符串"/>
+
+    <Button
+        android:onClick="testAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="调用相加"/>
+</LinearLayout>
